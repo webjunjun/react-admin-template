@@ -1,4 +1,4 @@
-# React Admin Light
+# React Admin Template
 
 仅基础初始化：无业务逻辑。已内置**路由底层能力**（History 模式 + 路由级懒加载 + 鉴权守卫）、**登录闭环**（表单校验 / authApi 登录 / token·用户·角色一次写入 / 顶栏退出登录）、404 页、**Zustand 用户状态存储**与 **Axios 请求层封装**（token 携带 / 统一错误处理 / blob 文件下载）、**MSW Mock**（含认证域）、**antd6 后台布局与角色权限**、基于 **keepalive-for-react 的路由多标签页缓存系统**（页签持久化 / LRU 防内存泄漏 / 生命周期 hooks），以及首个完整业务模块 **用户管理**（列表分页查询 / 新增编辑弹窗校验 / 单条与批量删除 / 状态启停）。
 
